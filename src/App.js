@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Friends from './components/pages/Friends/Friends';
+import Home from './components/pages/Home/Home';
+import Message from './components/pages/Message/Message';
+import Notification from './components/pages/Notification/Notification';
+import Header from './components/shared/Header/Header';
+import Sidebar1 from './components/shared/Sidebar1/Sidebar1';
+import Sidebar2 from './components/shared/Sidebar2/Sidebar2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className='px-10 lg:px-20 grid grid-cols-5 gap-3 my-2'>
+        <Sidebar1 />
+        <div className='col-span-3'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/friends' element={<Friends />} />
+            <Route path='/notification' element={<Notification />} />
+            <Route path='/message' element={<Message />} />
+          </Routes>
+        </div>
+        <Sidebar2 />
+      </div>
     </div>
   );
 }
