@@ -14,7 +14,7 @@ function App() {
       <Header />
       <div className='px-10 lg:px-20 grid grid-cols-5 gap-3 my-2'>
         <Sidebar1 />
-        <div className='col-span-3'>
+        <div className='col-span-5 lg:col-span-3'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/friends' element={<Friends />} />

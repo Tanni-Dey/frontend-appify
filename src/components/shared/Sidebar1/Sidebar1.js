@@ -11,7 +11,7 @@ const Sidebar1 = () => {
         { id: 1, profilePic: 'https://www.adobe.com/express/create/media_1bcd514348a568faed99e65f5249895e38b06c947.jpeg?width=400&format=jpeg&optimize=medium', name: 'Sadek Hossain' }
     ]
     return (
-        <div className='col-span-1 text-left'>
+        <div className='col-span-1 text-left hidden lg:block'>
             <div className='bg-white rounded-sm  p-5 mb-2'>
                 <h2 className='text-xl font-semibold mb-3'>Explore</h2>
                 <ul>

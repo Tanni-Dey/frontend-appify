@@ -11,7 +11,7 @@ const Sidebar2 = () => {
         { id: 2, profilePic: 'https://i.pinimg.com/280x280_RS/e4/86/86/e4868681b6e2cc4ce83c3b9a5d010b6c.jpg', userName: 'Kazi Mosarof Sishir', }
     ]
     return (
-        <div className='col-span-1 text-sm'>
+        <div className='col-span-1 text-sm hidden lg:block'>
             <div className='bg-white rounded-sm py-5 px-3 mb-2'>
                 <h2 className='text-left text-xl font-semibold mb-3'>You Might Like</h2>
                 <hr />
