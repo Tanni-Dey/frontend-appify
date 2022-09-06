@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "userName": "Adnan Chowdhury",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Have a good Day !",
+        "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXg_0n038J1EJnzrsm1ErB-krxoL1Bmfx_w&usqp=CAU",
+        "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutUq-QRLeof9NcnMd4ntzLPVhfEMUtWudFA&usqp=CAU",
+        "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutUq-QRLeof9NcnMd4ntzLPVhfEMUtWudFA&usqp=CAU",
+        "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutUq-QRLeof9NcnMd4ntzLPVhfEMUtWudFA&usqp=CAU",
+        "img5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutUq-QRLeof9NcnMd4ntzLPVhfEMUtWudFA&usqp=CAU",
+        "feelings": "is feelings ok",
+        "time": "1 hour",
+        "like": 1,
+        "wow": 2,
+        "love": 5,
+        "commentUser": "Adnan Chowdhury"
+    },
+    {
+        "id": 2,
+        "userName": "Alfred Parchment",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXg_0n038J1EJnzrsm1ErB-krxoL1Bmfx_w&usqp=CAU",
+        "feelings": "is feelings ok",
+        "time": "17 days",
+        "like": 3
+    },
+    {
+        "id": 3,
+        "userName": "Shakil Ahmed",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Hi everyone",
+        "time": "21 days",
+        "like": 3,
+        "love": 3,
+        "commentNumber": 1
+    },
+    {
+        "id": 4,
+        "userName": "Fla Pharoah",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Proof that I can do selfies better than you. Beauty is power, a smile is its sword. It is okay to be angry. It is never okay to be cruel. I may be a bad girl but I’m a damn good woman.I am just a girl looking for my heart.",
+        "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXg_0n038J1EJnzrsm1ErB-krxoL1Bmfx_w&usqp=CAU",
+        "time": "23 days",
+        "like": 1,
+        "angry": 1,
+        "love": 1
+    },
+    {
+        "id": 5,
+        "userName": "Habib Hossain",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHXg_0n038J1EJnzrsm1ErB-krxoL1Bmfx_w&usqp=CAU",
+        "time": "24 days",
+        "like": 1,
+        "love": 1,
+        "commentNumber": 1
+    },
+    {
+        "id": 6,
+        "userName": "Flo Pharoah",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Proof that I can do selfies better than you. Beauty is power, a smile is its sword. It is okay to be angry. It is never okay to be cruel. I may be a bad girl but I’m a damn good woman.I am just a girl looking for my heart.",
+        "time": "25 days",
+        "like": 1,
+        "wow": 3,
+        "love": 5
+    },
+    {
+        "id": 7,
+        "userName": "Mac Dusa",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Without trust in a relationship, is there even a realtionship?",
+        "time": "25 days",
+        "like": 3,
+        "commentNumber": 3
+    },
+    {
+        "id": 8,
+        "userName": "Flo Pharoah",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "I never seeked validation so your opinition is somthing you really could have kept to yourself",
+        "time": "26 days",
+        "like": 2
+    },
+    {
+        "id": 9,
+        "userName": "Flo Pharoah",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "The fact that we are letting love die sicknens me",
+        "time": "26 days",
+        "like": 1,
+        "love": 2
+    },
+    {
+        "id": 10,
+        "userName": "Sadek Hossain",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Click your home icon to refresh feed!",
+        "time": "27 days",
+        "like": 1,
+        "haha": 2,
+        "commentNumber": 3
+    },
+    {
+        "id": 11,
+        "userName": "Kamran Ahmed",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Jhe",
+        "time": "27 days",
+        "like": 1,
+        "haha": 1,
+        "commentNumber": 1
+    },
+    {
+        "id": 12,
+        "userName": "Flo Pharoah",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Remember, It is not a mistake for someone to treat you in a way they would not want to be treated",
+        "time": "28 days",
+        "like": 1,
+        "wow": 2,
+        "love": 3
+    },
+    {
+        "id": 13,
+        "userName": "Salman Ahmed",
+        "profilePic": "https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png",
+        "caption": "Hello",
+        "time": "29 days",
+        "like": 2,
+        "commentNumber": 2
+    }
+]

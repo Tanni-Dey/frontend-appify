@@ -1,5 +1,11 @@
 import React from 'react';
 import { CgProfile } from 'react-icons/cg';
+import { BsCircleHalf } from 'react-icons/bs';
+import { FaCameraRetro } from 'react-icons/fa';
+import { GrEmoji } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
+import Posts from './Posts/Posts';
+
 
 
 const Home = () => {
@@ -16,15 +22,13 @@ const Home = () => {
                 <div class="flex justify-center items-center w-full">
                     <label for="dropzone-file" class="flex flex-col justify-center items-center w-full  bg-gray-50 rounded-lg border-2 border-gray-300  dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
                         <div class="flex flex-col justify-center items-center cursor-pointer pt-5 bg-gray-400 rounded-md relative">
-                            {/* <svg aria-hidden="true" class="mb-3 w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg> */}
-                            {/* <div className='w-full'> */}
+
                             <CgProfile className='text-9xl px-2' />
-                            {/* </div> */}
-                            {/* <img className='h-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROZTgJiqRWL5wWednBz8zyRUhSuEDTzefieg&usqp=CAU" alt="" /> */}
+
                             <svg width="140" height="70" className='p-0  top-0'>
                                 <path d="M125,85 a60,60 0 1,0 -115,0" fill="#000" />
-                                {/* <path d="M10,85 a60,60 0 0,0 115,0" fill="#D78500" /> */}
                             </svg>
+
                             <span class="text-xl rounded-full bg-blue-600 text-white px-3 py-1 dark:text-gray-400 absolute bottom-8 border-2 border-black">+</span>
                             <p class="mb-2 text-sm text-gray-500 absolute bottom-0 dark:text-gray-400">Your Story</p>
                         </div>
@@ -40,11 +44,23 @@ const Home = () => {
                     </div>)
                 }
             </div>
-            <div className='bg-white rounded-sm p-3'>
+            <div className='bg-white rounded-sm p-3 mb-2'>
                 <div className='grid grid-cols-12 items-center'>
                     <CgProfile className='text-5xl col-span-1' />
                     <input className='col-span-11 rounded-full bg-primary text-primary  p-3' type="text" placeholder="Create a new post" />
                 </div>
+                <div className='grid grid-cols-3 mt-3'>
+                    <button><BsCircleHalf className='inline text-xl mr-2' /> Background</button>
+                    <button><FaCameraRetro className='inline text-xl mr-2' /> Photos/Videos</button>
+                    <button><GrEmoji className='inline text-xl mr-2' /> Feelings/Activity</button>
+                </div>
+            </div>
+            <ul className='grid grid-cols-6 p-3 mb-2 bg-white font-semibold rounded-sm text-left'>
+                <li className='text-red-600'><Link to=''> Public Post</Link></li>
+                <li><Link to=''> Friend Post</Link></li>
+            </ul>
+            <div>
+                <Posts />
             </div>
         </div>
     );
